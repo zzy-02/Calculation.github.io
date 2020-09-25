@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Calculation</string>
+    <string name="text0">0</string>
+    <string name="text1">1</string>
+    <string name="text2">2</string>
+    <string name="text3">3</string>
+    <string name="text4">4</string>
+    <string name="text5">5</string>
+    <string name="text6">6</string>
+    <string name="text7">7</string>
+    <string name="text8">8</string>
+    <string name="text9">9</string>
+    <string name="text_clear">CE</string>
+    <string name="text_back">BACK</string>
+    <string name="text_add">+</string>
+    <string name="text_minus">-</string>
+    <string name="text_multiply">*</string>
+    <string name="text_divide">/</string>
+    <string name="text_equle">=</string>
+    <string name="text_percent">%</string>
+    <string name="text_dot">.</string>
+</resources>
