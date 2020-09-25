@@ -1,4 +1,4 @@
-# Calculation.github.io
+# Calculation
 1. activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
