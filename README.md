@@ -674,7 +674,7 @@ class MainActivity : AppCompatActivity() {
         <color name="colorPrimaryDark">#3700B3</color>
         <color name="colorAccent">#03DAC5</color>
     </resources>
-    ```
+ ```
 4.text_background.xml
 ```
     <?xml version="1.0" encoding="utf-8"?>
