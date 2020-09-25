@@ -1,6 +1,6 @@
 # Calculation.github.io
 1. activity_main.xml
-``` <?xml version="1.0" encoding="utf-8"?>
+```<?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -416,9 +416,9 @@
         app:layout_constraintStart_toStartOf="@id/vertical_divide50"
         app:layout_constraintEnd_toStartOf="@id/vertical_divide75" />
 
-</androidx.constraintlayout.widget.ConstraintLayout> ```
+</androidx.constraintlayout.widget.ConstraintLayout>```
 2. MainActivity.kt
-``` package com.example.calculation
+```package com.example.calculation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -617,10 +617,10 @@ class MainActivity : AppCompatActivity() {
         }
         return numberFormat.format(result.toDouble()).toString()
     }
-} ```
+}```
 部分字符串，颜色，风格的设置
 1. strings.xml
-``` <resources>
+```<resources>
     <string name="app_name">Calculation</string>
     <string name="text0">0</string>
     <string name="text1">1</string>
@@ -641,9 +641,9 @@ class MainActivity : AppCompatActivity() {
     <string name="text_equle">=</string>
     <string name="text_percent">%</string>
     <string name="text_dot">.</string>
-</resources> ```
+</resources>```
 2. styles.xml
-``` <resources>
+```<resources>
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
@@ -657,17 +657,17 @@ class MainActivity : AppCompatActivity() {
         <item name="android:background">@drawable/text_background</item>
     </style>
 
-</resources> ```
+</resources>```
 3. colors.xml
-``` <?xml version="1.0" encoding="utf-8"?>
+```<?xml version="1.0" encoding="utf-8"?>
     <resources>
         <color name="colorPrimary">#6200EE</color>
         <color name="colorPrimaryDark">#3700B3</color>
         <color name="colorAccent">#03DAC5</color>
     </resources> ```
 4.text_background.xml
-``` <?xml version="1.0" encoding="utf-8"?>
+```<?xml version="1.0" encoding="utf-8"?>
     <selector xmlns:android="http://schemas.android.com/apk/res/android">
         <item android:drawable="@android:color/darker_gray" android:state_pressed="true"/>
 
-    </selector> ```
+    </selector>```
