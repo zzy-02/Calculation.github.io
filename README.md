@@ -1,6 +1,7 @@
 # Calculation.github.io
 1. activity_main.xml
-```<?xml version="1.0" encoding="utf-8"?>
+```
+<?xml version="1.0" encoding="utf-8"?>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -416,7 +417,8 @@
         app:layout_constraintStart_toStartOf="@id/vertical_divide50"
         app:layout_constraintEnd_toStartOf="@id/vertical_divide75" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>```
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
 2. MainActivity.kt
 ```package com.example.calculation
 
